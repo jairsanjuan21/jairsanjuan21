@@ -1,16 +1,36 @@
-## Hi there 👋
+## Hola, soy Jair
 
-<!--
-**jairsanjuan21/jairsanjuan21** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Estudiante de Ingeniería de Sistemas
+📍 Cúcuta, Colombia
 
-Here are some ideas to get you started:
+💻 Me gusta desarrollar software, aprender nuevas tecnologías y experimentar con infraestructura.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Actualmente estoy aprendiendo:
+- Java
+- Python
+- Linux
+- Docker
+- Redes
+
+Intereses:
+- Desarrollo Backend
+- Ciberseguridad
+- DevOps
+- Homelab
+- Inteligencia Artificial
+
+Proyectos destacados
+- Proyecto 1
+- Proyecto 2
+- Proyecto 3
+
+Tecnologías
+(Java) (Python) (Git) (Linux) (Docker) (MySQL)...
+
+GitHub Stats
+
+Contribuciones
+
+Contacto
+LinkedIn
+Correo
