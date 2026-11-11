@@ -1,4 +1,4 @@
-<h1 align="center">Hola, soy Jair SanJuan 👋</h1>
+<h1 align="center">Hola, soy Jair Sanjuan 👋</h1>
 
 <p align="center">
   Estudiante de <b>Ingeniería de Sistemas</b> en la <b>Universidad de Santander (UDES)</b><br>
@@ -29,9 +29,9 @@
 
 | Proyecto | Descripción | Tecnologías | Estado |
 |---|---|---|---|
-| [**Sistema de notificaciones ANM**](https://github.com/jairsanjuan21/NotificacionesANM.git) | Breve descripción (ej. clasificador de imágenes con CNN) | `Python` `PyTorch` | 🟢 En producción |
-| [**Nombre del proyecto 2**](https://github.com/jairsanjuan21/REPO2) | Breve descripción (ej. dashboard web interactivo) | `React` `Tailwind` | 🟡 En diseño |
-| [**Nombre del proyecto 3**](https://github.com/jairsanjuan21/REPO3) | Breve descripción (ej. modelo de predicción con datos reales) | `Python` `scikit-learn` | 🔵 Investigación |
+| [**Sistema de notificaciones ANM**](https://github.com/jairsanjuan21/NotificacionesANM.git) | Portal de notificaciones vía correo y bot de Telegram |  `FastAPI` `Uvicorn` `React` `Vite`| 🟢 En producción |
+| [**Catalogo web de venta de vehículos Fersauto**](https://github.com/jairsanjuan21/CatalogoFersautosSuzuki.git) | Desarrollo de un catalogo web con formulario en vivo de solicitud de credito, con panel de usuario para la visualización de las solicitudes | `TypeScript` `Better Auth` `PDF - LIB` | 🟡 En Desarrollo |
+| [**Sistema SG - SST**](https://github.com/jairsanjuan21/REPO3) | Centralización de documentos para el sistema de gestión y seguridad y salud en el trabajo  | `Python` `scikit-learn` | 🔵 Investigación |
 
 ---
 
@@ -42,14 +42,6 @@
 - 🎨 **Frontend creativo:** UI/UX, animaciones, visualización de datos
 - 🧮 **Pensamiento computacional:** algoritmos, estructuras de datos, análisis crítico
 
----
-
-## 📈 Estadísticas de GitHub
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jairsanjuan21&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jairsanjuan21&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
 
 ---
 
