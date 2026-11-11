@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-labelledby="t d">
+  <title id="t">Sistema web SG-SST (en diseño)</title>
+  <desc id="d">Reúne en una sola vista la documentación de seguridad y salud de varias empresas. Entrada: Empresas asesoradas y sus formatos del SG-SST. Proceso: Ciclo PHVA y gestión documental con plantillas. Salida: Vista central con roles de edición y de consulta.</desc>
+  <style>.sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}.mono{font-family:'Cascadia Code',Consolas,'Ubuntu Mono',Menlo,monospace}</style>
+  <clipPath id="r"><rect width="1200" height="250" rx="18"/></clipPath>
+  <g clip-path="url(#r)"><rect width="1200" height="250" fill="#141B34"/><rect width="8" height="250" fill="#3FB68B"/></g>
+  <text x="56" y="64" class="sans" font-size="30" font-weight="700" fill="#EEF0F6">Sistema web SG-SST</text>
+  <rect x="1044.6" y="38" width="99.39999999999999" height="32" rx="16" fill="none" stroke="#3FB68B" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="1094.3" y="59" text-anchor="middle" class="sans" font-size="15" fill="#3FB68B">En diseño</text>
+  <text x="56" y="102" class="sans" font-size="18" fill="#8A93B2">Reúne en una sola vista la documentación de seguridad y salud de varias empresas.</text>
+  <rect x="56" y="138" width="330" height="82" rx="10" fill="#1B2445" stroke="#2E3A66" stroke-dasharray="6 5"/>
+  <text x="74" y="162" class="mono" font-size="13" fill="#3FB68B">Entrada</text>
+  <text x="74" y="186" class="sans" font-size="16" fill="#EEF0F6">Empresas asesoradas</text>
+  <text x="74" y="207" class="sans" font-size="16" fill="#EEF0F6">y sus formatos del SG-SST</text>
+  <path d="M394,179 L426,179" stroke="#3FB68B" stroke-width="2"/><path d="M419,173 L427,179 L419,185" fill="none" stroke="#3FB68B" stroke-width="2"/>
+  <rect x="435" y="138" width="330" height="82" rx="10" fill="#1B2445" stroke="#2E3A66" stroke-dasharray="6 5"/>
+  <text x="453" y="162" class="mono" font-size="13" fill="#3FB68B">Proceso</text>
+  <text x="453" y="186" class="sans" font-size="16" fill="#EEF0F6">Ciclo PHVA y gestión</text>
+  <text x="453" y="207" class="sans" font-size="16" fill="#EEF0F6">documental con plantillas</text>
+  <path d="M773,179 L805,179" stroke="#3FB68B" stroke-width="2"/><path d="M798,173 L806,179 L798,185" fill="none" stroke="#3FB68B" stroke-width="2"/>
+  <rect x="814" y="138" width="330" height="82" rx="10" fill="#1B2445" stroke="#2E3A66" stroke-dasharray="6 5"/>
+  <text x="832" y="162" class="mono" font-size="13" fill="#3FB68B">Salida</text>
+  <text x="832" y="186" class="sans" font-size="16" fill="#EEF0F6">Vista central con roles</text>
+  <text x="832" y="207" class="sans" font-size="16" fill="#EEF0F6">de edición y de consulta</text>
+</svg>

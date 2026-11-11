@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Jair Sanjuan</title>
+  <desc id="d">Estudiante de Ingeniería de Sistemas en la UDES. Diagrama de sus tres sistemas: Notificaciones ANM en producción, Catálogo Fersautos en desarrollo y SG-SST en diseño.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#2A3560"/>
+    </pattern>
+    <style>
+      .sans{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:'Cascadia Code',Consolas,'Ubuntu Mono',Menlo,monospace}
+      .dash{stroke-dasharray:6 7;animation:flow 1.6s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-26}}
+      @media (prefers-reduced-motion:reduce){.pkt{display:none}.dash{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" rx="18" fill="#141B34"/>
+  <rect x="660" y="0" width="540" height="400" fill="url(#grid)"/>
+
+  <!-- Texto -->
+  <g class="sans">
+    <text x="64" y="138" font-size="64" font-weight="700" fill="#EEF0F6" letter-spacing="-1">Jair Sanjuan</text>
+    <text x="66" y="182" font-size="21" fill="#8A93B2">Estudiante de Ingeniería de Sistemas en la UDES, Cúcuta</text>
+    <text x="66" y="244" font-size="20" font-weight="600" fill="#EEF0F6">Construyo sistemas para personas reales:</text>
+    <text x="66" y="274" font-size="18" fill="#8A93B2">un ingeniero de minas, una asesora de autos</text>
+    <text x="66" y="300" font-size="18" fill="#8A93B2">y un consultor de seguridad y salud en el trabajo.</text>
+  </g>
+  <g class="mono" font-size="14" fill="#8A93B2">
+    <circle cx="72" cy="347" r="5" fill="#E0A43A"/><text x="84" y="352">1 en producción</text>
+    <circle cx="232" cy="347" r="5" fill="#4FA3F7"/><text x="244" y="352">1 en desarrollo</text>
+    <circle cx="392" cy="347" r="5" fill="#3FB68B"/><text x="404" y="352">1 en diseño</text>
+  </g>
+
+  <!-- Conexiones -->
+  <path id="pA" d="M796,200 C866,200 866,100 925,100" fill="none" stroke="#E0A43A" stroke-width="2"/>
+  <path id="pF" d="M796,200 L925,200" fill="none" stroke="#4FA3F7" stroke-width="2"/>
+  <path id="pS" class="dash" d="M796,200 C866,200 866,300 925,300" fill="none" stroke="#3FB68B" stroke-width="2"/>
+
+  <!-- Paquetes de datos: solo viajan por los sistemas que ya corren -->
+  <circle class="pkt" r="4.5" fill="#E0A43A"><animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#pA"/></animateMotion></circle>
+  <circle class="pkt" r="4.5" fill="#E0A43A"><animateMotion dur="2.2s" begin="1.1s" repeatCount="indefinite"><mpath href="#pA"/></animateMotion></circle>
+  <circle class="pkt" r="4.5" fill="#4FA3F7"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath href="#pF"/></animateMotion></circle>
+
+  <!-- Núcleo -->
+  <circle cx="760" cy="200" r="36" fill="#1B2445" stroke="#EEF0F6" stroke-width="2"/>
+  <text x="760" y="207" text-anchor="middle" class="mono" font-size="20" font-weight="700" fill="#EEF0F6">JS</text>
+
+  <!-- Sistemas -->
+  <g class="sans">
+    <rect x="925" y="72" width="200" height="56" rx="10" fill="#1B2445" stroke="#E0A43A" stroke-width="2"/>
+    <text x="943" y="97" font-size="17" font-weight="700" fill="#E0A43A">Notificaciones ANM</text>
+    <text x="943" y="116" font-size="13" fill="#8A93B2">en producción</text>
+
+    <rect x="925" y="172" width="200" height="56" rx="10" fill="#1B2445" stroke="#4FA3F7" stroke-width="2"/>
+    <text x="943" y="197" font-size="17" font-weight="700" fill="#4FA3F7">Catálogo Fersautos</text>
+    <text x="943" y="216" font-size="13" fill="#8A93B2">en desarrollo</text>
+
+    <rect x="925" y="272" width="200" height="56" rx="10" fill="#1B2445" stroke="#3FB68B" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="943" y="297" font-size="17" font-weight="700" fill="#3FB68B">Sistema SG-SST</text>
+    <text x="943" y="316" font-size="13" fill="#8A93B2">en diseño</text>
+  </g>
+</svg>
