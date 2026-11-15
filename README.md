@@ -1,5 +1,5 @@
 <a href="https://github.com/jairsanjuan21">
-  <img src="./assets/hero.svg" width="100%" alt="Jair Sanjuan, estudiante de Ingeniería de Sistemas en la UDES. Tres sistemas: Notificaciones ANM en producción, Catálogo Fersautos en desarrollo y SG-SST en diseño." />
+  <img src="./assets/hero.svg" width="100%" alt="Jair Sanjuan, estudiante de Ingeniería de Sistemas en la UDES. Software como servicio. Notificaciones ANM y Catálogo Fersautos en producción; SG-SST en desarrollo." />
 </a>
 
 <p align="center">
@@ -8,12 +8,25 @@
   <img src="https://komarev.com/ghpvc/?username=jairsanjuan21&style=flat-square&color=141B34&label=visitas" />
 </p>
 
-Me gusta el software que alguien abre todos los días para hacer su trabajo.
-Cada proyecto de este perfil empezó con una persona y un problema concreto,
-no con una tecnología. Abajo está cada uno descompuesto como lo pienso:
-**qué entra, qué se procesa y qué sale**.
+Hago software que un negocio abre todos los días para trabajar, y me encargo
+de que siga funcionando. Cada sistema de este perfil empezó con un cliente y un
+problema concreto, no con una tecnología.
+
+## Lo que ofrezco
+
+| | |
+|---|---|
+| 🧭 **Diseño a la medida** | Parto de cómo trabaja tu negocio, valido prototipos contigo y solo después escribo código. |
+| 🖥️ **Alojado en mi servidor** | El sistema corre en mi propio servidor con Docker. No tienes que contratar hosting ni configurar nada. |
+| 🔔 **Monitoreo y soporte** | Si algo falla, me entero primero: alertas automáticas, copias de seguridad y correcciones. |
+| 📈 **Mejora continua** | El sistema crece con el uso: nuevas funciones según lo que tu equipo realmente necesite. |
+
+¿Tienes un proceso que hoy vive en Excel, WhatsApp o papel?
+[Escríbeme](mailto:jairsanjuan21@hotmail.com) y lo convertimos en un sistema.
 
 ## Sistemas
+
+Cada uno descompuesto como lo pienso: **qué entra, qué se procesa y qué sale**.
 
 <a href="https://github.com/jairsanjuan21/NotificacionesANM">
   <img src="./assets/anm.svg" width="100%" alt="Notificaciones ANM, en producción. Vigila el portal de la Agencia Nacional de Minería y avisa antes de que venza un plazo." />
@@ -32,27 +45,29 @@ no con una tecnología. Abajo está cada uno descompuesto como lo pienso:
 </details>
 
 <a href="https://github.com/jairsanjuan21/CatalogoFersautosSuzuki">
-  <img src="./assets/fersautos.svg" width="100%" alt="Catálogo Fersautos Suzuki, en desarrollo. Lleva al cliente desde una publicación en redes hasta una solicitud de crédito lista." />
+  <img src="./assets/fersautos.svg" width="100%" alt="Catálogo Fersautos Suzuki, en producción. Lleva al cliente desde una publicación en redes hasta una solicitud de crédito lista." />
 </a>
 
-`Next.js` `TypeScript` `Tailwind CSS` `PostgreSQL` `Drizzle ORM` `Better Auth` `pdf-lib` `Docker`
+`Next.js` `TypeScript` `Tailwind CSS` `PostgreSQL` `Drizzle ORM` `Better Auth` `pdf-lib` `Gemini` `Docker` `VPS`
 
 <details>
-<summary>Lo que estoy resolviendo en este sistema</summary>
+<summary>Lo que resolví en este sistema</summary>
 
 - Un enlace por red social registra de dónde llegó cada cliente y preselecciona el modelo.
 - La firma y las fotos de la cédula se capturan desde el celular, dentro del formulario.
 - El PDF sale diligenciado con el formato oficial del concesionario.
-- Cuatro módulos: catálogo, formulario de crédito, panel de la asesora y panel de administración.
+- La asesora administra su propio catálogo y carga precios desde el Excel oficial.
+- Una IA gratuita redacta la descripción de cada vehículo.
+- Desplegado con Docker en mi propio servidor.
 
 </details>
 
-<img src="./assets/sgsst.svg" width="100%" alt="Sistema web SG-SST, en diseño. Reúne en una sola vista la documentación de seguridad y salud de varias empresas." />
+<img src="./assets/sgsst.svg" width="100%" alt="Sistema web SG-SST, en desarrollo. Reúne en una sola vista la documentación de seguridad y salud de varias empresas." />
 
-`Levantamiento de requerimientos` `Ciclo PHVA` `Multiempresa` `Stack por definir`
+`Multiempresa` `Ciclo PHVA` `Gestión documental` `Roles y permisos`
 
 <details>
-<summary>Decisiones de diseño hasta ahora</summary>
+<summary>Lo que estoy construyendo</summary>
 
 - Un consultor ve el archivo de todas las empresas que asesora desde una sola página.
 - Los formatos se diligencian, se editan y se reutilizan al crear una empresa nueva.
@@ -89,9 +104,10 @@ me enseña más que cualquier diagrama inicial.
 
 ## Lo que viene
 
-- [ ] Un servidor propio (VPS) donde los tres sistemas corran de forma independiente
-- [ ] Terminar el catálogo Fersautos en local y entregarlo
-- [ ] Pasar el SG-SST de diseño a desarrollo
+- [x] Servidor propio con Docker, donde ya corre el catálogo Fersautos
+- [x] Poner en producción el catálogo Fersautos
+- [ ] Lanzar el SG-SST para su primer cliente
+- [ ] Reunir los tres sistemas en el mismo servidor, cada uno independiente
 - [ ] Llevar machine learning a un problema real, como estos tres
 
 ## Actividad
